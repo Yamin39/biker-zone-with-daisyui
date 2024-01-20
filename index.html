@@ -37,7 +37,7 @@
     </script>
   </head>
   <body>
-    <header class="w-10/12 container mx-auto">
+    <header class="w-10/12 container mx-auto mb-32">
       <nav>
         <div class="pl-0 navbar bg-base-100">
           <div class="flex-1">
@@ -222,7 +222,246 @@
       </section>
     </header>
 
-    <main class="md:container md:mx-auto"></main>
+    <main class="w-10/12 container mx-auto mb-32 space-y-32">
+      <!-- featured -->
+      <section>
+        <div class="text-center mb-14">
+          <h2 class="text-5xl font-bold mb-2">Featured Bikes In This Year</h2>
+          <p class="text-bike-primary text-sm font-bold">
+            Best bike collection
+            <span class="block h-[1px] w-14 mx-auto bg-bike-primary"></span>
+          </p>
+        </div>
+        <div class="grid gap-16 grid-cols-1 md:grid-cols-3">
+          <div class="flex justify-center">
+            <img
+              class="grayscale"
+              src="images/others/feature-bike.png"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center">
+            <img src="images/others/feature-bike.png" alt="" />
+          </div>
+          <div class="flex justify-center">
+            <img
+              class="grayscale"
+              src="images/others/feature-bike.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- latest bikes -->
+      <section>
+        <div class="text-center mb-12">
+          <h2 class="text-5xl font-bold">latest Bikes</h2>
+        </div>
+        <div class="grid gap-5 grid-cols-1 md:grid-cols-3">
+          <!-- card-1 -->
+          <div class="card card-compact bg-base-100 shadow-xl">
+            <figure class="p-5">
+              <img class="w-full" src="images/others/latest1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-semibold">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn bg-bike-primary md:text-xl md:font-bold text-white md:py-4 md:px-8 h-auto"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card card-compact bg-base-100 shadow-xl">
+            <figure class="p-5">
+              <img class="w-full" src="images/others/latest2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-semibold">
+                Motorcycles & Scooters
+              </h2>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn border border-orange-400 bg-transparent md:text-xl md:font-bold text-bike-primary border-solid md:py-4 md:px-8 h-auto"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card card-compact bg-base-100 shadow-xl">
+            <figure class="p-5">
+              <img class="w-full" src="images/others/latest3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-semibold">
+                2021 Honda CBR500R
+              </h2>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn border border-orange-400 bg-transparent md:text-xl md:font-bold text-bike-primary border-solid md:py-4 md:px-8 h-auto"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonial -->
+      <section>
+        <div class="text-center mb-12">
+          <h2 class="text-5xl font-bold">
+            Happy <span class="text-bike-primary">Clients says</span>
+          </h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-11">
+          <div class="card bg-base-100 border border-gray-200">
+            <figure class="px-10 pt-10">
+              <img class="w-2/4" src="images/others/user-1.png" alt="User" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div class="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <p class="text-info font-semibold">Regina Miles</p>
+              <h2 class="text-sm font-semibold tracking-wide">Banker</h2>
+            </div>
+          </div>
+          <div class="card bg-base-100 border border-gray-200">
+            <figure class="px-10 pt-10">
+              <img class="w-2/4" src="images/others/user-1.png" alt="User" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div class="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <p class="text-info font-semibold">Regina Miles</p>
+              <h2 class="text-sm font-semibold tracking-wide">Banker</h2>
+            </div>
+          </div>
+          <div class="card bg-base-100 border border-gray-200">
+            <figure class="px-10 pt-10">
+              <img class="w-2/4" src="images/others/user-1.png" alt="User" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div class="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <p class="text-info font-semibold">Regina Miles</p>
+              <h2 class="text-sm font-semibold tracking-wide">Banker</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
